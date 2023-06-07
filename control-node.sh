@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # read -p "server ip: " serverIp;
-serverIp="192.168.1.13"
+read -p "Enter remote IP:" serverIp
 
 while (true); do
 	read -p "$ " command;
